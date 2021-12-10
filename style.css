@@ -1,0 +1,1042 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.malang-turen{
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+}
+
+.carousel-image{
+  width:100%;border-radius: 20px;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-weight: bolder;
+  /* font-size: 64px; */
+}
+
+h2{
+  font-family: "Poppins";
+  font-weight: bolder;
+}
+
+.event{
+  height: 411px;
+  width: 411px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: "Poppins";
+  font-weight: bolder;
+  /* font-size: 64px; */
+}
+.logo-navbar {
+  width: 188px;
+  height: 61px;
+}
+
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  transition: 0.5s ease-out;
+  opacity: 0.8;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+p {
+  text-align: center;
+  /* margin-bottom: 50px; */
+  font-family: "Montserrat";
+  font-size: 18px;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  margin: auto; /* Margin auto membuat wrapper berada ditengah */
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.btn-booking {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #eec55d;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 28px;
+  padding: 10px 10px;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-booking:hover{
+  color:white;
+}
+
+.header {
+  align-items: center;
+  justify-content: center;
+  display: flex; /* Biar bisa membuat kolomkolom di menunya*/
+  line-height: 10px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dinein{
+  width: 406px;
+  height: 227px;
+}
+.dinein:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.event-desktop{
+  margin-left: 16px;
+}
+.hamburger {
+  display: none;
+  position: relative;
+}
+.bg-section1 {
+  background: url("img/bg-section1.jpeg");
+  background-size: cover;
+  height: max-content ;
+  position: relative;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.nav-active{
+  border-radius: 99px;
+  background-color: #EEC55D;
+  padding: 10px 10px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: bolder;
+  color: #474747;
+}
+
+.nav-link-btn {
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: bolder;
+  color: white;
+}
+
+.nav-link:hover {
+  color: silver;
+}
+.nav-link-btn:hover {
+  color: #474747;
+}
+.imgcatering img {
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.imgcatering video {
+  width: 25%;
+  box-sizing: border-box;
+}
+
+#catering p {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+#catering .kolom h1 {
+  color: #000000;
+  margin: auto;
+}
+
+#catering .cateringresponsive p {
+  width: 25%;
+  font-weight: bolder;
+  color: #fff;
+  margin-top: -390px;
+  font-size: 28px;
+}
+
+.subtitlecatering p {
+  width: 25%;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -350px;
+  color: #ffffffa8;
+  opacity: 0;
+}
+
+.btn-catering {
+  display: block;
+  border-radius: 20px;
+  background-color: #eec55d;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 45px;
+  width: 120px;
+  height: 45px;
+  cursor: pointer;
+  margin-top: -240px;
+  opacity: 0;
+}
+
+.cateringhover:hover #tag1 {
+  color: #eec55d;
+  margin-top: -470px;
+  transition: 1s;
+}
+
+.cateringhover:hover .btn-catering,
+.cateringhover:hover .subtitlecatering1,
+.cateringhover:hover .subtitlecatering2,
+.cateringhover:hover .subtitlecatering3,
+.cateringhover:hover .subtitlecatering4 {
+  opacity: 1;
+  transition: 1.5s;
+}
+
+.imgcontact img {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.rincian ul {
+  width: 50%;
+  color: #fff;
+  margin-top: -460px;
+  font-size: 24px;
+  margin-left: 150px;
+}
+
+#contact p {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+#feedback p {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.btnwa {
+  height: 48px;
+  line-height: 40px;
+  border: solid rgb(16, 165, 91) 2px;
+  border-radius: 5px;
+  width: 250px;
+  margin: auto;
+  margin-top: -30px;
+  margin-bottom: 70px;
+}
+
+.btnwa p {
+  color: rgb(16, 165, 91);
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.footer {
+  height: 60px;
+  line-height: 60px;
+  background-image: url("img/6.jpg");
+  background-position-y: -360px;
+}
+
+.footer span {
+  /* text-align: center;
+  font-family: "Poppins";
+  font-size: 11px;
+  color: #fff; */
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Montserrat";
+  color: #fff;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+  .event-desktop{
+    margin-left: 0px;
+  }
+  h1{
+    font-size: 54px;
+  }
+  .bg-section1{
+    height: max-content;
+    background-size: unset;
+  }
+  .subtitlecatering p {
+    width: 25%;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -290px;
+    color: #ffffffa8;
+  }
+
+  .btn-catering {
+    display: block;
+    border-radius: 20px;
+    background-color: #eec55d;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 45px;
+    width: 95px;
+    height: 45px;
+    cursor: pointer;
+    margin-top: -90px;
+  }
+
+  .cateringresponsive ul {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 20px;
+    margin-top: -330px;
+    margin-left: 70px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .event-desktop{
+    margin-left: 0px;
+  }
+  .nav-menu {
+    z-index: 99;
+    position: fixed;
+    left: -100%;
+    top: 6rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .btn-booking {
+    display: block;
+    border-radius: 20px;
+    background-color: #eec55d;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    font-weight: bolder;
+    width: 342px;
+    height: 54px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .cateringresponsive ul {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 14px;
+    margin-top: -230px;
+    margin-left: 30px;
+  }
+
+  #catering .cateringresponsive p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: auto;
+    margin-top: -220px;
+  }
+
+  .subtitlecatering p {
+    width: 25%;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -220px;
+    color: #ffffffa8;
+    opacity: 0;
+  }
+
+  .btn-catering {
+    display: block;
+    border-radius: 20px;
+    background-color: #eec55d;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 45px;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+    margin-top: -120px;
+    opacity: 0;
+  }
+
+  .cateringhover:hover #tag1 {
+    color: #eec55d;
+    margin-top: -300px;
+    transition: 1s;
+  }
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32%;
+}
+
+@media only screen and (max-width: 700px) {
+  .event-desktop{
+    margin-left: 0px;
+  }
+  h1{
+    font-size: 42px;
+  }
+  .responsive {
+    width: 100%;
+    margin: 6px 0;
+  }
+  .btn-booking {
+    display: block;
+    border-radius: 20px;
+    background-color: #eec55d;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    font-weight: bolder;
+    width: 442px;
+    height: 54px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .cateringresponsive ul {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 14px;
+    margin-top: -230px;
+    margin-left: 30px;
+  }
+
+  #catering .cateringresponsive p {
+    color: #ffffff;
+    font-size: 14px;
+    margin: auto;
+    margin-top: -220px;
+  }
+
+  .contactsubtitle {
+    font-size: 20px;
+  }
+
+  .btnwa {
+    height: 38px;
+    line-height: 35px;
+    width: 250px;
+  }
+
+  .btnwa p {
+    color: rgb(16, 165, 91);
+    font-weight: bolder;
+    font-size: 15px;
+  }
+
+  .subtitlecatering p {
+    width: 25%;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -220px;
+    color: #ffffffa8;
+  }
+
+  .subtitlecatering1,
+  .subtitlecatering2,
+  .subtitlecatering3,
+  .subtitlecatering4 {
+    opacity: 0;
+  }
+
+  .btn-catering {
+    display: block;
+    border-radius: 20px;
+    background-color: #eec55d;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 45px;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+    margin-top: -90px;
+    opacity: 0;
+  }
+
+  .cateringhover:hover #tag1 {
+    color: #eec55d;
+    margin-top: -280px;
+    transition: 1s;
+  }
+
+  .cateringhover:hover .btn-catering,
+  .cateringhover:hover .subtitlecatering1,
+  .cateringhover:hover .subtitlecatering2,
+  .cateringhover:hover .subtitlecatering3,
+  .cateringhover:hover .subtitlecatering4 {
+    opacity: 1;
+    transition: 1.5s;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .event-desktop{
+    margin-left: 0px;
+  }
+  #catering .cateringresponsive p {
+    color: #ffffff;
+    font-size: 14px;
+    margin: auto;
+    margin-top: -160px;
+  }
+
+  .subtitlecatering p {
+    width: 25%;
+    font-size: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -160px;
+    color: #ffffffa8;
+  }
+
+  .btn-catering {
+    display: block;
+    border-radius: 20px;
+    background-color: #eec55d;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 8px;
+    font-weight: bolder;
+    line-height: 15px;
+    width: 55px;
+    height: 15px;
+    cursor: pointer;
+    margin-top: -80px;
+  }
+
+  .cateringresponsive ul {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 8px;
+    margin-top: -130px;
+    margin-left: 10px;
+  }
+
+  .cateringhover:hover #tag1 {
+    color: #eec55d;
+    margin-top: -240px;
+    transition: 1s;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .malang-turen{
+    font-size: 18px;
+  }
+  .event-desktop{
+    margin-left: 0px;
+  }
+ 
+  .bg-section1{
+    height: max-content;
+    background-size: unset;
+ }
+  .responsive {
+    width: 100%;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .btn-booking {
+    display: block;
+    border-radius: 20px;
+    background-color: #eec55d;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    font-weight: bolder;
+    width: 242px;
+    height: 44px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .cateringresponsive ul {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 8px;
+    margin-top: -130px;
+    margin-left: 10px;
+  }
+
+  .subtitlecatering p {
+    width: 25%;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -150px;
+    color: #ffffffa8;
+  }
+  #catering .cateringresponsive p {
+    color: #ffffff;
+    font-size: 11px;
+    margin: auto;
+    margin-top: -148px;
+  }
+
+  .btn-catering {
+    display: block;
+    border-radius: 20px;
+    background-color: #eec55d;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    font-weight: bolder;
+    line-height: 25px;
+    width: 75px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: -50px;
+  }
+
+  .cateringhover:hover #tag1 {
+    color: #eec55d;
+    margin-top: -280px;
+    transition: 1s;
+    opacity: 0;
+  }
+
+  .cateringhover:hover .btn-catering,
+  .cateringhover:hover .subtitlecatering1,
+  .cateringhover:hover .subtitlecatering2,
+  .cateringhover:hover .subtitlecatering3,
+  .cateringhover:hover .subtitlecatering4 {
+    opacity: 1;
+    transition: 1.5s;
+  }
+
+  .contactsubtitle {
+    font-size: 14px;
+  }
+  .btnwa {
+    height: 38px;
+    line-height: 30px;
+    width: 200px;
+  }
+
+  .btnwa p {
+    color: rgb(16, 165, 91);
+    font-weight: bolder;
+    font-size: 15px;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .event-desktop{
+    margin-left: 0px;
+  }
+  .subtitlecatering p {
+    width: 25%;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -10px;
+    color: #ffffffa8;
+  }
+
+  .btn-catering {
+    display: block;
+    border-radius: 20px;
+    background-color: #eec55d;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 15px;
+    width: 55px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: -40px;
+  }
+
+  .cateringresponsive ul {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 8px;
+    margin-top: -130px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .malang-turen{
+    font-size: 18px;
+  }
+  .event-desktop{
+    margin-left: 0px;
+  }
+  .bg-section1{
+    height: max-content;
+    background-size: unset;
+  }
+  .subtitlecatering p {
+    width: 25%;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -150px;
+    color: #ffffffa8;
+  }
+
+  #catering .cateringresponsive p {
+    color: #ffffff;
+    font-size: 11px;
+    margin: auto;
+    margin-top: -118px;
+  }
+
+  .btn-catering {
+    display: block;
+    border-radius: 20px;
+    background-color: #eec55d;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    font-weight: bolder;
+    line-height: 25px;
+    width: 55px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: -40px;
+  }
+
+  .cateringresponsive ul {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 8px;
+    margin-top: -130px;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .malang-turen{
+    font-size: 18px;
+  }
+  .event-desktop{
+    margin-left: 0px;
+  }
+  .subtitlecatering p {
+    width: 25%;
+    font-size: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -140px;
+    color: #ffffffa8;
+  }
+
+  #catering .cateringresponsive p {
+    color: #ffffff;
+    font-size: 11px;
+    margin: auto;
+    margin-top: -118px;
+  }
+
+  .btn-catering {
+    display: block;
+    border-radius: 20px;
+    background-color: #eec55d;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 8px;
+    font-weight: bolder;
+    line-height: 15px;
+    width: 55px;
+    height: 15px;
+    cursor: pointer;
+    margin-top: -40px;
+  }
+
+  .cateringresponsive ul {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 8px;
+    margin-top: -130px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .event-desktop{
+    margin-left: 0px;
+  }
+  .subtitlecatering p {
+    width: 25%;
+    font-size: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -130px;
+    color: #ffffffa8;
+  }
+
+  .btn-catering {
+    display: block;
+    border-radius: 20px;
+    background-color: #eec55d;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 8px;
+    font-weight: bolder;
+    line-height: 15px;
+    width: 55px;
+    height: 15px;
+    cursor: pointer;
+    margin-top: -40px;
+  }
+
+  .cateringresponsive ul {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 8px;
+    margin-top: -130px;
+    margin-left: 10px;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 325px) {
+  .malang-turen{
+    font-size: 14px;
+  }
+  .event-desktop{
+    margin-left: 0px;
+  }
+  h1{
+    font-size: 22px;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+  }
+ 
+
+  #catering .cateringresponsive p {
+    color: #ffffff;
+    font-size: 11px;
+    margin: auto;
+    margin-top: -100px;
+  }
+
+  .cateringresponsive ul {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 8px;
+    margin-top: -120px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .event-desktop{
+    margin-left: 0px;
+  }
+  .subtitlecatering p {
+    width: 25%;
+    font-size: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -110px;
+    color: #ffffffa8;
+  }
+
+  #catering .cateringresponsive p {
+    color: #ffffff;
+    font-size: 8px;
+    margin: auto;
+    margin-top: -80px;
+  }
+
+  .cateringresponsive ul {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 8px;
+    margin-top: -110px;
+    margin-left: -10px;
+  }
+}
